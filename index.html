@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css" />
+    <style>
+      header {
+        width: 100%;
+        height: 450px;
+        background-image: url("final-template/final-template/first-screen.jpg");
+        color: white;
+        background-size: cover;
+      }
+      .col-4:hover {
+        box-shadow: 16px 16px 32px #c8c8c8, -16px -16px 32px #fefefe ;
+      }
+      h1, h3 {
+        font-family: 'Oswald';
+      }
+      h2 {
+        font-family: 'Oswald';
+        font-weight: bold;
+        font-size: 3rem;
+        color: #F7654A;
+      }
+      h3 {
+        font-family: 'Oswald';
+        text-align: center;
+      }
+      .year {
+        font-family: 'Oswald';
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+      p {
+        font-family: 'Open Sans';
+      }
+      .small {
+        color: #999999;
+      }
+      .minus {
+        color: #F7654A;
+        font-size: 10rem;
+        margin: -30% 0 -20% 0;
+      }
+      .wrapper {
+        padding: 2% 10%;
+        background-color: #eceaea;;
+        margin: -10% 0 0 0}
+      
+      .section1 {
+        background-color: #F7654A;
+        color: white;
+      }
+      .sectionText{
+        color: white;
+        font-family: 'Oswald';
+        font-size: 2rem;
+      }
+      .sectionText2{
+        color: white;
+        font-family: 'Oswald';
+        font-size: 1rem;
+      }
+      .button {
+        margin-top: 4%;
+        padding: 1% 2% 0 2%;
+        background-color: white;
+        color: black;
+        font-family: 'Open Sans';
+        display: flex;
+        justify-content: space-around;
+        height: min-content;
+        width: 15%;
+        font-size: 0.8rem;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .buildingCard {
+        background-color: #ebebeb;
+        text-align: center;
+        margin: 1% 1%;
+        padding: 4% 0;
+        width: 30%;
+      }
+      .buildingCardText{
+        color: black;
+        font-family: 'Open Sans';
+        font-weight: bold;
+        padding-top: 2%;
+      }
+      .btn.btn-primary {
+        background-color: white;
+        color: #F7654A;
+        border: none;
+        font-family: 'Oswald';
+        font-weight: bold;
+        font-size: 1rem;
+      }
+      .right{
+        color: #F7654A;
+      }
+      .card.card-body{
+        border: none;
+        margin-left: 1%;
+      }
+      .section2 {
+        background-color: #404149;
+        color: white;
+        font-family: 'Oswald';
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 5% 0;
+        padding: 5% 0;;
+      }
+      .partners{
+        display: flex;
+        justify-content: space-around;
+      }
+      .img-fluid {
+        max-width:100%; 
+        height: auto;
+      }
+      .coment{
+        background-color: #ebebeb;
+        margin: 10% 1% 10% 1%;
+        padding: 1% 5%;
+      }
+      .cov {
+        border: none;
+        font-family: 'Oswald';
+        color: #F7654A;
+        font-size: 5rem;
+        margin: -7% 0;
+      }
+      .comentText{
+        font-family: 'Oswald';
+        color: black;
+        font-size: 1rem;
+      }
+      span{
+        color: #F7654A;
+      }
+      .bi.bi-geo-alt, .bi.bi-clock, .bi.bi-envelope, .bi.bi-telephone{
+        color: #F7654A;
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      .contactText {
+        color: #999999;
+        font-family: 'Oswald';
+        font-size: 1.2rem;
+      }
+      .contactText2 {
+        color: black;
+        font-family: 'Oswald';
+        font-size: 1rem;
+      }
+      footer{
+        margin-top: 2%;
+        padding: 1% 2%;
+        background-color: #404149;
+        color: white;
+        font-size: 0.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-2">
+            <img src="final-template/final-template/icons/logo.svg" alt="" />
+          </div>
+          <div class="col-2 text-end" style="cursor: pointer;">
+            <img src="final-template/final-template/icons/menu-gamburger.svg" alt="">
+        </div>
+        </div>
+      </div>
+      <div class="container">
+       <div class="row text-center mt-5">
+        <h1>РЕАЛИЗУЕМ КРУПНЕЙШИЕ <br>ПРОЕКТЫ В РОССИИ!</h1>
+        <p>СТАДИОНЫ, ГАЗОПРОВОДЫ, МОСТЫ, ДАМБЫ</p>
+       </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+        <div class="wrapper">
+            <div class="row text-center justify-content-between">
+                <div class="col-2">
+                  <h2>26</h2>
+                  <p class="year">ЛЕТ</p>
+                  <p class="small">на рынке</p>
+                </div>
+                <div class="col-2">
+                  <h2>26</h2>
+                  <p class="year">ЛЕТ</p>
+                  <p class="small">на рынке</p>
+              </div>
+              <div class="col-2">
+                <h2>26</h2>
+                <p class="year">ЛЕТ</p>
+                  <p class="small">на рынке</p>
+            </div>
+            <div class="col-2">
+              <h2>26</h2>
+              <p class="year">ЛЕТ</p>
+              <p class="small">на рынке</p>
+          </div>
+            </div>
+        </div>
+        <div class="row mt-5 animate__animated animate__fadeInDown wow">
+          <h3 style="margin:5% 0;">НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</h3>
+          <div class="col-4 pt-3"> 
+            <div><img src="final-template/final-template/st.jpg" alt=""></div>
+            <p class="minus">-</p>
+            <h4>Газпром Арена</h4>
+            <p class="small">Мы сделали самую красивую арену в Европе. Это открытие стало для нас пропывной точкой для развития на следующие десятилетия. Мы очень рады данному событию.</p>
+          </div>
+          <div class="col-4 pt-3"> 
+            <div><img src="final-template/final-template/st.jpg" alt=""></div>
+            <p class="minus">-</p>
+            <h4>Газпром Арена</h4>
+            <p class="small">Мы сделали самую красивую арену в Европе. Это открытие стало для нас пропывной точкой для развития на следующие десятилетия. Мы очень рады данному событию.</p>
+          </div>
+          <div class="col-4 pt-3"> 
+            <div><img src="final-template/final-template/st.jpg" alt=""></div>
+            <p class="minus">-</p>
+            <h4>Газпром Арена</h4>
+            <p class="small">Мы сделали самую красивую арену в Европе. Это открытие стало для нас пропывной точкой для развития на следующие десятилетия. Мы очень рады данному событию.</p>
+          </div>
+        </div>
+    </div>
+    <div class="section1 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col p-4">
+            <p class="sectionText">САМЫЕ УМНЫЕ ПРОЕКТЫ</p>
+            <p class="sectionText2">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</p>
+          </div>
+          <div class="col-2 button">
+            <div>
+              <img src="final-template/final-template/envelope-fill.svg" alt="">
+            </div>
+            <p>ВАШ ЗАПРОС</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-5 pt-5 animate__animated animate__fadeInDown wow">
+        <h3>ЧЕМ МЫ ЗАНИМАЕМСЯ?</h3>
+        <div class="col-4 buildingCard mt-4">
+          <img src="final-template/final-template/icons/build.svg" alt="">
+          <p class="buildingCardText">СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ</p>
+        </div>
+        <div class="col-4 buildingCard mt-4">
+          <img src="final-template/final-template/icons/build.svg" alt="">
+          <p class="buildingCardText">СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ</p>
+        </div>
+        <div class="col-4 buildingCard mt-4">
+          <img src="final-template/final-template/icons/build.svg" alt="">
+          <p class="buildingCardText">СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ</p>
+        </div>
+        <div class="col-4 buildingCard">
+          <img src="final-template/final-template/icons/build.svg" alt="">
+          <p class="buildingCardText">СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ</p>
+        </div>
+        <div class="col-4 buildingCard">
+          <img src="final-template/final-template/icons/build.svg" alt="">
+          <p class="buildingCardText">СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ</p>
+        </div>
+        <div class="col-4 buildingCard">
+          <img src="final-template/final-template/icons/build.svg" alt="">
+          <p class="buildingCardText">СТРОИТЕЛЬСТВО <br> ОФИСНЫХ ЗДАНИЙ</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-5">
+      <div class="row no-gutters">
+        <div class="col-3 p-0">
+          <img src="final-template/final-template/building.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-3 p-0">
+          <img src="final-template/final-template/building.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-3 p-0">
+          <img src="final-template/final-template/building.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-3 p-0">
+          <img src="final-template/final-template/building.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-3 p-0">
+          <img src="final-template/final-template/building.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-3 p-0">
+          <img src="final-template/final-template/building.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-3 p-0">
+          <img src="final-template/final-template/building.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-3 p-0">
+          <img src="final-template/final-template/building.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-5 pt-5">
+        <h3>ОТВЕТЫ НА ВОПРОСЫ</h3>
+        <div>
+          <p>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <span class="right">&#5125</span> Вопрос первый
+          </a>
+           </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body small p-0">
+            Ответ на первый вопрос Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia id amet eos eum reiciendis. Nostrum aspernatur excepturi quaerat accusantium veritatis.
+          </div>
+        </div>
+      </div>
+      <div>
+        <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <span class="right">&#5125</span>Вопрос второй
+        </a>
+         </p>
+      <div class="collapse" id="collapseExample2">
+        <div class="card card-body small p-0">
+          Ответ на второй вопрос Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti explicabo mollitia voluptatum. Ut sunt ipsa deserunt commodi adipisci ipsam quaerat?
+        </div>
+      </div>
+    </div>
+    <div>
+      <p>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <span class="right">&#5125</span>Вопрос третий
+      </a>
+       </p>
+    <div class="collapse" id="collapseExample3">
+      <div class="card card-body small p-0">
+        Ответ на третий вопрос Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nam earum perferendis molestias error quae pariatur. Modi aperiam distinctio hic!
+      </div>
+    </div>
+  </div>
+  <div>
+    <p>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <span class="right">&#5125</span>Вопрос четвертый
+    </a>
+     </p>
+  <div class="collapse" id="collapseExample4">
+    <div class="card card-body small p-0">
+      Ответ на четвертый вопрос Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate nostrum doloribus quisquam beatae aliquam impedit itaque numquam officiis nulla fugiat?
+    </div>
+  </div>
+</div> 
+      </div>
+        </div>
+        <div class="section2">
+          <div class="container text-center">
+            <div class="row">
+              <p class="partnerText">НАШИ ПАРТНЕРЫ</p>
+              <div class="partners">
+                  <img src="final-template/final-template/partner.png" alt="">
+                  <img src="final-template/final-template/partner.png" alt="">
+                  <img src="final-template/final-template/partner.png" alt="">
+                  <img src="final-template/final-template/partner.png" alt="">
+                  <img src="final-template/final-template/partner.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container animate__animated animate__fadeInDown wow">
+          <div class="row">
+            <h3>ОТЗЫВЫ О РАБОТЕ С НАМИ</h3>
+            <div class="col-4">
+              <div class="coment">
+              <p class="cov">"</p>
+              <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa maiores provident libero molestias sed ut, ipsum iure repudiandae culpa dolore quod similique quas impedit laudantium animi quisquam commodi in ipsam dolorum dignissimos molestiae incidunt! Vero!</p>  
+              </div>
+            <p class="comentText">Иван Иванов, <span>ООО "Газпром-Арена"</span></p>
+            </div>
+            <div class="col-4">
+              <div class="coment">
+              <p class="cov">"</p>
+              <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa maiores provident libero molestias sed ut, ipsum iure repudiandae culpa dolore quod similique quas impedit laudantium animi quisquam commodi in ipsam dolorum dignissimos molestiae incidunt! Vero!</p>  
+              </div>
+            <p class="comentText">Иван Иванов, <span>ООО "Газпром-Арена"</span></p>
+            </div>
+            <div class="col-4">
+              <div class="coment">
+              <p class="cov">"</p>
+              <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa maiores provident libero molestias sed ut, ipsum iure repudiandae culpa dolore quod similique quas impedit laudantium animi quisquam commodi in ipsam dolorum dignissimos molestiae incidunt! Vero!</p>  
+              </div>
+            <p class="comentText">Иван Иванов, <span>ООО "Газпром-Арена"</span></p>
+            </div>
+            </div>
+          </div>
+          <div class="section1 mt-5">
+            <div class="container">
+              <div class="row">
+                <div class="col p-4">
+                  <p class="sectionText">ХОЧЕШЬ С НАМИ РАБОТАТЬ?</p>
+                  <p class="sectionText2">ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</p>
+                </div>
+                <div class="col-2 button">
+                  <div>
+                    <img src="final-template/final-template/envelope-fill.svg" alt="">
+                  </div>
+                  <p>ВАШ ЗАПРОС</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row mt-5 pt-5 text-lg-center">
+              <h3>КОНТАКТЫ</h3>
+              <div class="col">
+                <i class="bi bi-geo-alt"></i>
+                <p class="contactText">АДРЕС</p>
+                <p class="contactText2">Невский проспект 140, <br> 0фис 140-142</p>
+              </div>
+              <div class="col">
+                <i class="bi bi-telephone"></i>
+                <p class="contactText">ТЕЛЕФОН</p>
+                <p class="contactText2">8 (812) 111-22-33 <br>8 (812) 111-22-33</p>
+              </div>
+              <div class="col">
+                <i class="bi bi-clock"></i>
+                <p class="contactText">ВРЕМЯ РАБОТЫ</p>
+                <p class="contactText2">ПН-СБ <br>10:00 - 20:00 </p>
+              </div>
+              <div class="col">
+                <i class="bi bi-envelope"></i>
+                <p class="contactText">E-MAIL</p>
+                <p class="contactText2" style="color: #F7654A; cursor: pointer;">INFO@VIP.RU</p>
+              </div>
+            </div>
+          </div>
+        <footer>
+          <div class="container">
+            <div class="row text-center">
+              <div class="col">
+              <p> &copy; 2019 Строительная компания</p>  
+              </div>
+              <div class="col">
+                <p>Разработано лучшей студией</p>  
+                </div>
+            </div>
+          </div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/graingert/WOW@1.3.0/dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
